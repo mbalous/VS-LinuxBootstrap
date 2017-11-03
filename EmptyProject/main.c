@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include <math.h>
 
 int main(void)
 {
-	printf("Hello world");
+	float x = sin(3.14f);
+	printf("%f", x);
 	return 0;
 }
